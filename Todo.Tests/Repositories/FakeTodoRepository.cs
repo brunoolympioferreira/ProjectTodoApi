@@ -12,9 +12,9 @@ namespace Todo.Tests.Repositories
         {
         }
 
-        public TodoItem GetbiId(Guid id, string user)
+        public TodoItem GetById(Guid id, string user)
         {
-            return new TodoItem("Titulo aqui","Bruno Ferreira",DateTime.Now);
+            return new TodoItem("Titulo Aqui", "André Baltieri", DateTime.Now);
         }
 
         public void Update(TodoItem todo)
