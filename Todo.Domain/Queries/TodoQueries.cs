@@ -11,7 +11,7 @@ namespace Todo.Domain.Queries
             return x => x.User == user;
         }
 
-        public static Expression<Func<TodoItem, bool>> GetAllDone(string user)
+        public static Expression<Func<TodoItem, bool>> GetAllUndone(string user)
         {
             return x => x.User == user && x.Done == true;
         }
